@@ -6,6 +6,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Default_Project.Cores.Specifications;
 using Default_Project.Errors;
+using Default_Project.Helper;
 
 namespace Default_Project.Controllers
 {
@@ -20,6 +21,7 @@ namespace Default_Project.Controllers
             _mapper = mapper;
         }
 
+        [Cached(300)]
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<BlogDTO>), 200)]
         public async Task<ActionResult<IEnumerable<BlogDTO>>> GetBlogs([FromQuery] BlogSpecParams param)

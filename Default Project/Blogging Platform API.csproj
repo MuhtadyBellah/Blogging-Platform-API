@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Default_Project</RootNamespace>
     <UserSecretsId>523ea26b-b2ad-4ed8-a3c0-ad540876ef4e</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
