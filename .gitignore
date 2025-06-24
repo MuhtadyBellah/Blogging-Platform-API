@@ -42,6 +42,7 @@ ScaffoldingReadMe.txt
 CodeCoverage/
 .vs/
 *wwwroot/
+Default Project/appsettings.json
 
 # MSBuild Binary and Structured Log
 *.binlog
